@@ -2,5 +2,7 @@ eureka:
    client:
       registerWithEureka: false
       fetchRegistry: false
+      serviceUrl:
+         defaultZone: https://spring-boot-eureka-server-demo.herokuapp.com/eureka
 server:
    port: ${PORT:8761}
